@@ -1,0 +1,9 @@
+.DashboardList{
+    display: grid;
+    grid-template-rows: 80px;
+    grid-auto-rows: 80px;
+    border-bottom: 1px solid #6c6c6c;                         
+}
+
+
+

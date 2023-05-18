@@ -1,0 +1,40 @@
+.DashboardItem{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 80px 1fr 1fr;
+    grid-template-rows: 30px 30px;
+    grid-template-areas: "icon currencySymbolName holdingQuantity"
+                         "icon currencyPrincechange24h holdingValue";
+}
+
+
+.icon{
+    grid-area: icon;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+}
+
+.symbolname{
+    grid-area: currencySymbolName;
+}
+
+
+
+.pricechange{    
+    grid-area: currencyPrincechange24h;
+}
+
+
+
+.holdingQuantity{
+    justify-content: right;
+    grid-area: holdingQuantity;
+}
+
+.holdingValue{
+    justify-content: right;
+    grid-area: holdingValue;
+}
